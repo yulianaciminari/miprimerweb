@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 80px;
+    background-color: #ff9914 ;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  li>a {
+    padding: 8px 24px;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  body {
+      background-color: #abff4f;
+      color: #f21b3f;
+  }
+  h1 {
+      color:#f21b3f; 
+      font-family:  Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      text-align: center;
+     }
+  p{
+      color: #29335c;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 15px;
+      padding: 6px;
+      margin: 30px 20px 30px 20px;
+  }
+  .container{
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    display: flex;
+   justify-content: baseline;
+    min-width: 200px;
+    background-color: #ff9914;
+  }
+footer.button {
+    color: #29335c;
+  }
+
+    @media (max-width: 768px) {
+      .column {
+        flex: 100%;
+      }
+      .nav-links {
+        display: none;
+      }
+      .button-menu-toggle {
+        display: block;
+        background-color: rgb(247, 249, 248);
+        border:none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight:bold;
+        font-size: 20px;
+      }
+      .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: rgba(20,20,20,0.95);
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap:70px;
+        font-size: 40px;
+      }
+    }
