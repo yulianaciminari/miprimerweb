@@ -6,7 +6,7 @@
     display: flex;
     padding: 10px;
     height: 80px;
-    background-color: #ff9914 ;
+    background-color: #DBABBE ;
   }
   .navbar {
     display: flex;
@@ -24,7 +24,7 @@
     list-style-type: none;
   }
   a {
-    color: white;
+    color: #A53860;
     text-decoration:none;
   }
   .nav-links {
@@ -36,11 +36,11 @@
   }
   
   body {
-      background-color: #abff4f;
-      color: #f21b3f;
+      background-color: #EDD2E0;
+      color: #087E8B;
   }
   h1 {
-      color:#f21b3f; 
+      color:#29335c; 
       font-family:  Arial, Helvetica, sans-serif;
       font-size: 30px;
       text-align: center;
@@ -105,5 +105,9 @@ footer.button {
     }
     .greeting {
       text-align: center;
+    }
+    img {
+      width: 80px;
+      height: 80px;
     }
     
