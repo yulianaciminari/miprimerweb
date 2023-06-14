@@ -61,14 +61,18 @@
     display: flex;
     justify-content: center;
   }
-  footer{
-    display: flex;
-   justify-content: baseline;
+  footer {
+    background-color:#DBABBE;
+    font-size: 20px;
+    height:  100px;
     min-width: 200px;
-    background-color: #ff9914;
   }
-footer.button {
-    color: #29335c;
+  footer .footer-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
   }
 
     @media (max-width: 768px) {
@@ -107,7 +111,7 @@ footer.button {
       text-align: center;
     }
     img {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
     }
     
